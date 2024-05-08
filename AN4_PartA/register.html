@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanmay | jQuery Mobile</title>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <style>
+    .ui-content
+    {
+      max-width: 600px; /* Adjust this value to your desired maximum width */
+      margin: 0 auto; /* Center the content horizontally */
+    }
+  </style>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+      
+            <h1 >Tanmay Arts</h1>
+        </div>
+        <div data-role="navbar" data-grid="c">
+            <ul>
+              <li><a href="#" class="ui-btn-active">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#" >Products</a></li>
+              <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+
+        <div data-role="content" class="ui-content">
+            <div>
+                <center><h2>Register</h2></center>
+            </div>
+            <div data-role="content">
+
+                <label >First Name</label>
+                <input type="text"> <br>
+
+                <label >Last Name</label>
+                <input type="text"> <br>
+
+                <label >Address</label>
+                <textarea  cols="30" rows="10"></textarea> <br>
+
+                <label >Email</label>
+                <input type="email"><br>
+
+                <label >Password</label>
+                <input type="text"><br>
+                
+                <!-- <input type="submit" value="Register"> -->
+                <button class="ui-btn">Register</button>
+
+             </div>
+
+
+            
+        </div>
+    </div>
+    
+
+
+</body>
+</html>

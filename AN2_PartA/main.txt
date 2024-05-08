@@ -1,0 +1,43 @@
+# Create a Git repository
+# open git bash
+
+Configure your username and email
+# git config --global user.name "First_name Last_name"
+# git config --global user.email "abc@gmail.com"
+
+# git config user.name
+# git config user.email
+
+
+# git init
+# git remote add origin <URL>
+# git add .
+# git commit -m "First Commit"
+# git push origin main
+
+
+Unset your git config
+# git config --global --unset user.name
+# git config --global --unset user.email
+
+Git branch commands
+
+Create new branch
+# git branch <branch_name>
+
+Check current branch
+# git branch
+
+Switch Branch
+# git checkout <branch_name>
+# git checkout -b <branch_name>
+
+Delete branch
+# git branch -d <branch_name>
+
+
+Merge (current branch with the specified branch)
+# git merge <branch_name>
+
+PULL
+# git pull origin   (update the local git branch from the remote repo)

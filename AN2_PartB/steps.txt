@@ -1,0 +1,25 @@
+1) Create a Docker file
+
+Dockerfile
+
+    FROM node:ALPINE
+    COPY . /part2b
+    CMD node /part2b/app.js
+
+2) Create a js file
+
+index.js
+
+    console.log("Hello")
+    console.log(232342)
+
+
+Steps
+
+1)Go to the Directory docker1
+    cd part2b
+
+
+2) docker build -t part2b .
+
+3) docker images

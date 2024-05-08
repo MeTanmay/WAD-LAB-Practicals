@@ -1,0 +1,18 @@
+Step 1: Install Node.js and npm
+Step 2: Create a new directory for your project and jump into that directory
+Step 3: Initialize your project
+
+        npm init
+
+Step 4: Install Express
+        npm install express and nodemon
+
+Step 5: Create your main server file 
+        index.js -> in the main project directory
+
+Step 6: Create a public folder 
+        Add HTML files in it --> index.html, about.html, home.html
+        Add CSS folder : CSS-> style.css and add link in all html files
+
+Step7: 
+

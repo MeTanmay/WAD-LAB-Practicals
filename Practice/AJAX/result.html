@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <h2>Data of users</h2>
+            <p id="name"></p>
+            <p id="email"></p>
+            <p id="gender"></p>
+            <p id="rollno"></p>
+            <p id="branch"></p>
+        </div>
+    </div>
+<script>
+    const name=localStorage.getItem('name');
+    const email=localStorage.getItem('email');
+    const gender=localStorage.getItem('gender');
+    const rollno=localStorage.getItem('rollno');
+    const branch=localStorage.getItem('branch');
+
+    document.getElementById("name").innerHTML="Name " +name;
+    document.getElementById("email").innerHTML="email " +email;
+    document.getElementById("gender").innerHTML="gender " +gender;
+    document.getElementById("rollno").innerHTML="rollno " +rollno;
+    document.getElementById("branch").innerHTML="branch " +branch;
+</script> 
+</body>
+</html>

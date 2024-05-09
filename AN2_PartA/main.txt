@@ -41,3 +41,7 @@ Merge (current branch with the specified branch)
 
 PULL
 # git pull origin   (update the local git branch from the remote repo)
+
+
+git remote remove origin
+rm -rf .git

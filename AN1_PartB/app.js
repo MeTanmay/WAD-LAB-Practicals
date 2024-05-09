@@ -6,7 +6,7 @@ const rollno = document.getElementById('rollno');
 const get = () => {
     const req = new XMLHttpRequest();
     req.onreadystatechange = function () {
-        if (this.status === 200 && this.readyState == 4) {
+        if (this.status == 200 && this.readyState == 4) {
             const p = document.getElementById('file-data');
             p.style.borderColor = 'red';
             p.innerText = this.responseText;
